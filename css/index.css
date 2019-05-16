@@ -1,3 +1,10 @@
+.btn {
+  padding: 10px 75.32px;
+  border-radius: 5px;
+  background-color: #17A2B8;
+  border: #212529;
+  color: #FFFFFF;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -178,9 +185,9 @@ nav a {
   color: black;
 }
 .footer {
-  width: 100%;
   border-top: 2px dashed silver;
   background: #FFEBCD;
+  margin: 0 23%;
 }
 .footer p {
   text-align: center;
@@ -193,7 +200,7 @@ nav a {
   justify-content: space-between;
   align-items: baseline;
   padding-top: 20px;
-  margin: 0 -100px;
+  margin: 0 -13%;
 }
 .home header h1 {
   margin-left: 100px;

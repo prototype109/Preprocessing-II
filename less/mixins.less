@@ -1,1 +1,12 @@
 // Mixins in here
+.btn{
+    .custom-btn();
+}
+
+.custom-btn(@destination-class-BR: 5px){
+    padding: 10px (@destination-class-width / 2);
+    border-radius: @destination-class-BR;
+    background-color: @button-bg;
+    border: @shark;
+    color: @white;
+}
