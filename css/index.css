@@ -184,6 +184,11 @@ nav a {
   text-decoration: none;
   color: black;
 }
+@media (max-width: 500px) {
+  nav {
+    margin-right: 0;
+  }
+}
 .footer {
   border-top: 2px dashed silver;
   background: #FFEBCD;
@@ -201,9 +206,23 @@ nav a {
   align-items: baseline;
   padding-top: 20px;
   margin: 0 -13%;
+  padding-bottom: 30px;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home header h1 {
   margin-left: 100px;
+}
+@media (max-width: 500px) {
+  .home header h1 {
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .home header {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
 }
 .home .content-section {
   margin: 30px 0;
@@ -215,12 +234,34 @@ nav a {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    width: 100%;
+    padding: 0;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
 }
+@media (max-width: 500px) {
+  .home .content-section .img-content {
+    width: 100%;
+    padding: 0;
+  }
+}
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .content-section {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .home .Adventure {
+    flex-direction: column-reverse;
+  }
 }
 .home .inverse-content {
   padding-bottom: 30px;
@@ -240,6 +281,10 @@ nav a {
 }
 .home .content-destination img {
   border-radius: 10px;
+}
+.home .introduction {
+  padding-bottom: 30px;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-pick {
   padding-top: 30px;
