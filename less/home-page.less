@@ -19,6 +19,7 @@
     @media @mobile{
       flex-direction: column;
       //justify-content: stretch;
+      padding-bottom: 0;
       align-items: center;
       margin: 0;
     }
@@ -47,11 +48,15 @@
 
       @media @mobile{
         width: 100%;
-        padding-left: 10%;
+        padding: 0;
+        //padding-left: 10%;
       }
 
       img {
         border-radius: 10px;
+        @media @mobile{
+          width: 100%;
+        }
       }
     }
 
@@ -88,7 +93,7 @@
       @media @mobile{
         width: 100%;
         padding: 0;
-        padding-left: 10%;
+        //padding-left: 10%;
       }
     }
   }
